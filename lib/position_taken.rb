@@ -8,9 +8,6 @@ def position_taken?(board, position)
   end
   taken
 end
-if position == " " || position == "" || position == nil
-   return false
- end
-
-
- 
+#if position == " " || position == "" || position == nil
+   #return false
+ #end
