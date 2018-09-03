@@ -1,10 +1,10 @@
 # code your #position_taken? method here!
 
-board = ["", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["", " ", " ", " ", " ", " ", " ", " ", " "] ||
 position = 0
-board = [nil, " ", " ", " ", " ", " ", " ", " ", " "]
+board = [nil, " ", " ", " ", " ", " ", " ", " ", " "] ||
 position = 0
-board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
+board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"] ||
 position = 1
 
 def position_taken?(board, position)
