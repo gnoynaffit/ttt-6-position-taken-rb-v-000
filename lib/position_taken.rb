@@ -11,3 +11,10 @@ end
 #if position == " " || position == "" || position == nil
    #return false
  #end
+
+ def position_taken?(board, index)
+  position = board[index]
+  if position == " " || position == "" || position == nil
+    return false
+  end
+  return true
