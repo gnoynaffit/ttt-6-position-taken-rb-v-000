@@ -1,5 +1,5 @@
 # code your #position_taken? method here!
-if position == " " || position == "" || position == nil
+ position == " " || position == "" || position == nil
     return false
   end
 
