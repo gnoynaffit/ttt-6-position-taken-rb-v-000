@@ -3,7 +3,7 @@
 board = ["X", "", " ", " ", " ", " ", " ", " ", "O"]
 position = 1
 expect(position_taken?(board, position)).to be(false)
-end
+
 def position_taken?(board, position)
   taken = nil
   if board[position] == " "
