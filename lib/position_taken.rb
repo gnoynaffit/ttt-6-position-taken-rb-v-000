@@ -1,12 +1,12 @@
 # code your #position_taken? method here!
-ttt_board = [" "," "," "," ","X"," "," "," "," "]
 
-def postion_taken? (board, index)
-  ! (board[index] ==  " " || board
-  [index] == "" || board[index] == nil)
-   end
-   puts position_taken?(ttt_board, 0)
-   puts position_taken?(ttt_board, 1)
-   puts position_taken?(ttt_board, 2)
-   puts position_taken?(ttt_board, 3)
-   puts position_taken?(ttt_board, 4)
+
+def position_taken?(board, position)
+  taken = nil
+  if board[position] == " "
+    taken = false
+  else
+    taken = true
+  end
+  taken
+end
