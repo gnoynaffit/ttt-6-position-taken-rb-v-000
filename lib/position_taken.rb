@@ -7,7 +7,10 @@ def position_taken?(board, position)
     taken = true
   end
   taken
-
+end
 if position == " " || position == "" || position == nil
    return false
+ end
+
+
  
