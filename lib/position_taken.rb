@@ -1,6 +1,14 @@
 # code your #position_taken? method here!
 
-board = ["X", "", " ", " ", " ", " ", " ", " ", "O"]
+
+
+if position == " " || position == "" || position == nil
+    return false
+  end
+  true
+  return true
+
+
 
 def position_taken?(board, position)
   taken = nil
