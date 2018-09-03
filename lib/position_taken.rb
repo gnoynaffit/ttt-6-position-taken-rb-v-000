@@ -1,12 +1,11 @@
 # code your #position_taken? method here!
 
 
-= nil
- if (board[index] ==  " " || board[index] == "" || board[index] == nil)
-   taken = false
- else
-   taken = true
- end
+position_taken?(board, index)
+  position = board[index]
+  if position == " " || position == "" || position == nil
+    false
+end 
 
 
 
