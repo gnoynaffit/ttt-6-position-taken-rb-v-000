@@ -1,7 +1,9 @@
 # code your #position_taken? method here!
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["", " ", " ", " ", " ", " ", " ", " ", " "]
+position = 0
 board = [nil, " ", " ", " ", " ", " ", " ", " ", " "]
+position = 0
 board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
 position = 1
 
