@@ -3,6 +3,7 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 board = [nil, " ", " ", " ", " ", " ", " ", " ", " "]
 board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
+position = 1
 
 def position_taken?(board, position)
   taken = nil
