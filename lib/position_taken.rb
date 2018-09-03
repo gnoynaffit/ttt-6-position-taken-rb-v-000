@@ -5,7 +5,7 @@ position = 0
 board = [nil, " ", " ", " ", " ", " ", " ", " ", " "] ||
 position = 0
 board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"] ||
-position = 1
+position = 1 
 
 def position_taken?(board, position)
   taken = nil
