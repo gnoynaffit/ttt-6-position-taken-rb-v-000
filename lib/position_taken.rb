@@ -6,7 +6,7 @@ def postion_taken? (board, index)
    else
      taken = true
    end
-   taken
+   
 
 puts position_taken?(ttt_board, 0)
 puts position_taken?(ttt_board, 1)
